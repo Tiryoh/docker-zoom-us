@@ -20,7 +20,7 @@ RUN apt-get install -qy curl iceweasel sudo desktop-file-utils lib32z1 \
   libxcb-keysyms1 libxcb-xtest0 ibus ibus-gtk \
   libnss3 libxss1 xcompmgr pulseaudio
 
-ARG ZOOM_URL=https://zoom.us/client/latest/zoom_amd64.deb
+ARG ZOOM_URL=https://zoom.us/client/5.4.57450.1220/zoom_amd64.deb
 
 # Grab the client .deb
 # Install the client .deb
